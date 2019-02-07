@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="icon" href="https://static.thenounproject.com/png/213667-200.png">
+    <link rel="stylesheet" href="Assets/Stylesheets/style.css">
+    <link rel="stylesheet" href="Assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/Stylesheets/fontawesome-all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Major+Mono+Display|Source+Code+Pro" rel="stylesheet"> 
+
+    <script src="Assets/Javascripts/model.js"></script>
+    <script src="Assets/Javascripts/controller.js"></script>
+</head>
+<body>
+
+    <div id="container">
+
+        <h1 class="ttt text-center">Tic Tac Toe</h1>
+  
+        <div id="radios" class="text-center">
+
+              <img src="Assets/Images/tttt.png" alt="">
+
+              <div id="oneP" class="option">
+                  <label id="labelOne" class="labelOption" >One Player</label>
+              </div>
+    
+              <div id="twoP" class="option">
+                 <label id="labelTwo" class="labelOption" >Two Player</label>
+              </div>   
+        </div> 
+
+        <div id="board-container" class="text-center">
+
+             <div class="board text-center">
+                <div class="board-row">
+                     <div class="board-elements" ></div>
+                     <div class="board-elements" ></div>
+                     <div class="board-elements" ></div>
+                </div>
+                <div class="board-row">
+                        <div class="board-elements" ></div>
+                        <div class="board-elements" ></div>
+                        <div class="board-elements" ></div>
+                </div>
+                <div class="board-row">
+                        <div class="board-elements" ></div>
+                        <div class="board-elements" ></div>
+                        <div class="board-elements" ></div>
+                </div>
+             </div>
+
+             <div id="result">
+                 <span id="text" class="text"></span>
+             </div>
+
+             <div id="menus">
+                 <button class="menu" id="home" >Home</button>
+                 <button class="menu" id="reset">New Game</button>
+             </div>
+
+
+        </div>
+  
+
+    </div>
+</body>
+</html>
