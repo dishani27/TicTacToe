@@ -163,8 +163,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .new{
-    background-color: olive;
-    box-shadow: -4px 4px 2px rgba(128, 128,0, 0.9);
+    background-color: olive !important;
+    box-shadow: -4px 4px 2px rgba(128, 128,0, 0.9) !important;
 }
 .newI{
     text-decoration-style: dashed;
