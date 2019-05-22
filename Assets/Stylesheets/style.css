@@ -68,6 +68,7 @@ h1,h2,h3,h4,h5,h6{
 #oneP {
     margin-top: 5%;
     margin-bottom: 3%;
+    visibility: hidden;
 }
 
 
